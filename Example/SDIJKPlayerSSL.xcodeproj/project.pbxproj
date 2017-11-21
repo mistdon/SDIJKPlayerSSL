@@ -361,10 +361,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SDIJKPlayerSSL_Example/Pods-SDIJKPlayerSSL_Example-frameworks.sh",
+				"${PODS_ROOT}/../../VendorFrameworks/IJKMediaFrameworkWithSSL.framework",
 				"${BUILT_PRODUCTS_DIR}/SDIJKPlayerSSL/SDIJKPlayerSSL.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IJKMediaFrameworkWithSSL.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDIJKPlayerSSL.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

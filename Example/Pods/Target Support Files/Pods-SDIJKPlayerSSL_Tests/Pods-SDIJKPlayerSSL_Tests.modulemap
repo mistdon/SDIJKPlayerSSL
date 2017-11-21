@@ -1,0 +1,6 @@
+framework module Pods_SDIJKPlayerSSL_Tests {
+  umbrella header "Pods-SDIJKPlayerSSL_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,42 @@
+{
+  "name": "SDIJKPlayerSSL",
+  "version": "0.1.0",
+  "summary": "A short description of SDIJKPlayerSSL.",
+  "description": "This is a wrapper of IJKMediaPlayerFramworkSSL",
+  "homepage": "https://github.com/momo13014/SDIJKPlayerSSL",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "momo13014": "shendong13014@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/momo13014/SDIJKPlayerSSL.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SDIJKPlayerSSL/Classes/**/*",
+  "frameworks": [
+    "AudioToolbox",
+    "AVFoundation",
+    "CoreGraphics",
+    "CoreMedia",
+    "CoreVideo",
+    "MediaPlayer",
+    "MobileCoreServices",
+    "OpenGLES",
+    "QuartzCore",
+    "UIKit",
+    "VideoToolbox"
+  ],
+  "libraries": [
+    "z",
+    "bz2"
+  ],
+  "ios": {
+    "vendored_frameworks": "VendorFrameworks/IJKMediaFrameworkWithSSL.framework"
+  }
+}
