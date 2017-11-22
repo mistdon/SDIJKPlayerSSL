@@ -17,6 +17,9 @@ SDIJKPlayerSSL is available through [CocoaPods](http://cocoapods.org). To instal
 it, simply add the following line to your Podfile:
 
 ```ruby
+source 'https://github.com/CocoaPods/Specs'
+source 'https://github.com/momo13014/Specs'
+
 pod 'SDIJKPlayerSSL'
 ```
 
@@ -65,6 +68,7 @@ lipo -create Release-iphoneos/IJKMediaFrameworkWithSSL.framework/IJKMediaFramewo
     
 ## 测试链接
 >  `"https://media.w3.org/2010/05/sintel/trailer.mp4"`
+
 >  `"http://mvvideo2.meitudata.com/5785a7e3e6a1b824.mp4?k=18455aa3fed468886b9df95eed493f0b&t=59e41659"`
 
 >  `"http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8"`
