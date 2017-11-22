@@ -1,8 +1,10 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/SDIJKPlayerSSL"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../../VendorFrameworks"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/SDIJKPlayerSSL"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iquote "$PODS_CONFIGURATION_BUILD_DIR/SDIJKPlayerSSL/SDIJKPlayerSSL.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "SDIJKPlayerSSL"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/SDIJKPlayerSSL"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/SDIJKPlayerSSL"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"SDIJKPlayerSSL" -l"bz2" -l"z" -framework "AVFoundation" -framework "AudioToolbox" -framework "CoreGraphics" -framework "CoreMedia" -framework "CoreVideo" -framework "IJKMediaFrameworkWithSSL" -framework "MediaPlayer" -framework "MobileCoreServices" -framework "OpenGLES" -framework "QuartzCore" -framework "UIKit" -framework "VideoToolbox"
 PODS_BUILD_DIR = $BUILD_DIR
 PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.

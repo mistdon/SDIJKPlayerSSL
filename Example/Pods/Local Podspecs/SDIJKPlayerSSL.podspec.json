@@ -1,7 +1,7 @@
 {
   "name": "SDIJKPlayerSSL",
-  "version": "0.1.0",
-  "summary": "A short description of SDIJKPlayerSSL.",
+  "version": "1.0.0",
+  "summary": "A Pod wrapper SDIJKPlayerSSL.",
   "description": "This is a wrapper of IJKMediaPlayerFramworkSSL",
   "homepage": "https://github.com/momo13014/SDIJKPlayerSSL",
   "license": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/momo13014/SDIJKPlayerSSL.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"

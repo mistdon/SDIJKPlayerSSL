@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SDIJKPlayerSSL'
-  s.version          = '0.1.1'
+  s.version          = '1.0.0'
   s.summary          = 'A Pod wrapper SDIJKPlayerSSL.'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'SDIJKPlayerSSL/Classes/**/*'
+  s.source_file s = 'SDIJKPlayerSSL/Classes/**/*'
   
   # s.resource_bundles = {
   #   'SDIJKPlayerSSL' => ['SDIJKPlayerSSL/Assets/*.png']

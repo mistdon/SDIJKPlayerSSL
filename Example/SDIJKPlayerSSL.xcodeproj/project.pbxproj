@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2824A29831D6E68F694A621B /* Pods_SDIJKPlayerSSL_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 771810B1C6ED2EA14ED212EA /* Pods_SDIJKPlayerSSL_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,8 +21,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		736E9B971D2E07AF2B2DBD14 /* libPods-SDIJKPlayerSSL_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7175937CA0B5A98F1236DEC9 /* libPods-SDIJKPlayerSSL_Example.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		988EFB389AE9FFC2918C16B9 /* Pods_SDIJKPlayerSSL_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C71FF73B6266611DE1A776E1 /* Pods_SDIJKPlayerSSL_Tests.framework */; };
+		EAA40746B4BDB7EDC7086503 /* libPods-SDIJKPlayerSSL_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA52414FD0D6DD45F1C4C7D7 /* libPods-SDIJKPlayerSSL_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		22751202D7D2A80D58AFF629 /* SDIJKPlayerSSL.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SDIJKPlayerSSL.podspec; path = ../SDIJKPlayerSSL.podspec; sourceTree = "<group>"; };
-		27C31B431FAB766A01C47F2F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		42EE6921D828946D08C9189B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		22751202D7D2A80D58AFF629 /* SDIJKPlayerSSL.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SDIJKPlayerSSL.podspec; path = ../SDIJKPlayerSSL.podspec; sourceTree = "<group>"; };
+		27C31B431FAB766A01C47F2F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		42EE6921D828946D08C9189B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		51D5155ED712FE255748C1A7 /* Pods-SDIJKPlayerSSL_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDIJKPlayerSSL_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDIJKPlayerSSL_Example/Pods-SDIJKPlayerSSL_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SDIJKPlayerSSL_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDIJKPlayerSSL_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,12 +61,12 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		771810B1C6ED2EA14ED212EA /* Pods_SDIJKPlayerSSL_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDIJKPlayerSSL_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7175937CA0B5A98F1236DEC9 /* libPods-SDIJKPlayerSSL_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDIJKPlayerSSL_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		773698C641747585E829EACD /* Pods-SDIJKPlayerSSL_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDIJKPlayerSSL_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDIJKPlayerSSL_Example/Pods-SDIJKPlayerSSL_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C71FF73B6266611DE1A776E1 /* Pods_SDIJKPlayerSSL_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SDIJKPlayerSSL_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6CE5CA214408C6B00A03496 /* Pods-SDIJKPlayerSSL_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDIJKPlayerSSL_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDIJKPlayerSSL_Tests/Pods-SDIJKPlayerSSL_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EE7F49532E60405B44F4DAB7 /* Pods-SDIJKPlayerSSL_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDIJKPlayerSSL_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDIJKPlayerSSL_Tests/Pods-SDIJKPlayerSSL_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FA52414FD0D6DD45F1C4C7D7 /* libPods-SDIJKPlayerSSL_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDIJKPlayerSSL_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				2824A29831D6E68F694A621B /* Pods_SDIJKPlayerSSL_Example.framework in Frameworks */,
+				736E9B971D2E07AF2B2DBD14 /* libPods-SDIJKPlayerSSL_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				988EFB389AE9FFC2918C16B9 /* Pods_SDIJKPlayerSSL_Tests.framework in Frameworks */,
+				EAA40746B4BDB7EDC7086503 /* libPods-SDIJKPlayerSSL_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +134,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				771810B1C6ED2EA14ED212EA /* Pods_SDIJKPlayerSSL_Example.framework */,
-				C71FF73B6266611DE1A776E1 /* Pods_SDIJKPlayerSSL_Tests.framework */,
+				7175937CA0B5A98F1236DEC9 /* libPods-SDIJKPlayerSSL_Example.a */,
+				FA52414FD0D6DD45F1C4C7D7 /* libPods-SDIJKPlayerSSL_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -250,6 +250,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = momo13014;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = S8238R3HUC;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -305,15 +308,11 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SDIJKPlayerSSL_Tests/Pods-SDIJKPlayerSSL_Tests-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Expecta/Expecta.framework",
-				"${BUILT_PRODUCTS_DIR}/Expecta+Snapshots/Expecta_Snapshots.framework",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
 				"${BUILT_PRODUCTS_DIR}/Specta/Specta.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Expecta.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Expecta_Snapshots.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Specta.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,12 +361,10 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-SDIJKPlayerSSL_Example/Pods-SDIJKPlayerSSL_Example-frameworks.sh",
 				"${PODS_ROOT}/../../VendorFrameworks/IJKMediaFrameworkWithSSL.framework",
-				"${BUILT_PRODUCTS_DIR}/SDIJKPlayerSSL/SDIJKPlayerSSL.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IJKMediaFrameworkWithSSL.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDIJKPlayerSSL.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -544,6 +541,11 @@
 			baseConfigurationReference = 773698C641747585E829EACD /* Pods-SDIJKPlayerSSL_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S8238R3HUC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SDIJKPlayerSSL/SDIJKPlayerSSL-Prefix.pch";
 				INFOPLIST_FILE = "SDIJKPlayerSSL/SDIJKPlayerSSL-Info.plist";
@@ -559,6 +561,11 @@
 			baseConfigurationReference = 51D5155ED712FE255748C1A7 /* Pods-SDIJKPlayerSSL_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = S8238R3HUC;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SDIJKPlayerSSL/SDIJKPlayerSSL-Prefix.pch";
 				INFOPLIST_FILE = "SDIJKPlayerSSL/SDIJKPlayerSSL-Info.plist";
