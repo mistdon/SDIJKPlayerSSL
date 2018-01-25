@@ -3,7 +3,7 @@ This application makes use of the following third party libraries:
 
 ## SDIJKPlayerSSL
 
-Copyright (c) 2017 momo13014 <dong.shen@get88.cn>
+Copyright (c) 2017 momo13014 <dongshen13014@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
