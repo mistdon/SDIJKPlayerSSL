@@ -76,7 +76,7 @@ lipo -create Release-iphoneos/IJKMediaFrameworkWithSSL.framework/IJKMediaFramewo
 
 ## Author
 
-momo13014, shendong13014@gmail.com
+momo13014, dongshen13014@gmail.com
 
 ## License
 
