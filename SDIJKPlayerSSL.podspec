@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SDIJKPlayerSSL'
-  s.version          = '1.0.0'
+  s.version          = '1.0.3'
   s.summary          = 'A Pod wrapper SDIJKPlayerSSL.'
 
 # This description is used to generate tags and improve search results.
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/momo13014/SDIJKPlayerSSL'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'momo13014' => 'shendong13014@gmail.com' }
+  s.author           = { 'momo13014' => 'dongshen13014@gmail.com' }
   s.source           = { :git => 'https://github.com/momo13014/SDIJKPlayerSSL.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
