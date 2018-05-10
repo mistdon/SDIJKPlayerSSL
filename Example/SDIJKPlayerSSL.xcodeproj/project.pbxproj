@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BFCFBC120A446F400DE323F /* SDVideoPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFCFBC020A446F400DE323F /* SDVideoPlayerView.m */; };
+		3BFCFBC420A4470200DE323F /* SDMediaControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFCFBC320A4470200DE323F /* SDMediaControl.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -39,6 +41,10 @@
 /* Begin PBXFileReference section */
 		22751202D7D2A80D58AFF629 /* SDIJKPlayerSSL.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SDIJKPlayerSSL.podspec; path = ../SDIJKPlayerSSL.podspec; sourceTree = "<group>"; };
 		27C31B431FAB766A01C47F2F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3BFCFBBF20A446F400DE323F /* SDVideoPlayerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDVideoPlayerView.h; sourceTree = "<group>"; };
+		3BFCFBC020A446F400DE323F /* SDVideoPlayerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDVideoPlayerView.m; sourceTree = "<group>"; };
+		3BFCFBC220A4470200DE323F /* SDMediaControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SDMediaControl.h; sourceTree = "<group>"; };
+		3BFCFBC320A4470200DE323F /* SDMediaControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDMediaControl.m; sourceTree = "<group>"; };
 		42EE6921D828946D08C9189B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		51D5155ED712FE255748C1A7 /* Pods-SDIJKPlayerSSL_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDIJKPlayerSSL_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDIJKPlayerSSL_Example/Pods-SDIJKPlayerSSL_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SDIJKPlayerSSL_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDIJKPlayerSSL_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +154,10 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* SDViewController.h */,
 				6003F5A6195388D20070C39A /* SDViewController.m */,
+				3BFCFBBF20A446F400DE323F /* SDVideoPlayerView.h */,
+				3BFCFBC020A446F400DE323F /* SDVideoPlayerView.m */,
+				3BFCFBC220A4470200DE323F /* SDMediaControl.h */,
+				3BFCFBC320A4470200DE323F /* SDMediaControl.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -208,7 +218,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				AC0FAEBDDC1176D10ACEC13B /* [CP] Embed Pods Frameworks */,
-				1810A42924D8587597EE909B /* [CP] Copy Pods Resources */,
+				D10679024381F6C714B1E5F4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,8 +237,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				0180E5E5EE210FCF75C78272 /* [CP] Embed Pods Frameworks */,
-				EB0AD67D6387DBEA66F9AF3E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -300,41 +308,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0180E5E5EE210FCF75C78272 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-SDIJKPlayerSSL_Tests/Pods-SDIJKPlayerSSL_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/Expecta/Expecta.framework",
-				"${BUILT_PRODUCTS_DIR}/Specta/Specta.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Expecta.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Specta.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDIJKPlayerSSL_Tests/Pods-SDIJKPlayerSSL_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1810A42924D8587597EE909B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDIJKPlayerSSL_Example/Pods-SDIJKPlayerSSL_Example-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		97188DEEB8ED5FE360C92A8A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -371,6 +344,24 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDIJKPlayerSSL_Example/Pods-SDIJKPlayerSSL_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D10679024381F6C714B1E5F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SDIJKPlayerSSL_Example/Pods-SDIJKPlayerSSL_Example-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDIJKPlayerSSL_Example/Pods-SDIJKPlayerSSL_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D1746206B9F7D1DD2C404D41 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -389,21 +380,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EB0AD67D6387DBEA66F9AF3E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SDIJKPlayerSSL_Tests/Pods-SDIJKPlayerSSL_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -411,7 +387,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BFCFBC120A446F400DE323F /* SDVideoPlayerView.m in Sources */,
 				6003F59E195388D20070C39A /* SDAppDelegate.m in Sources */,
+				3BFCFBC420A4470200DE323F /* SDMediaControl.m in Sources */,
 				6003F5A7195388D20070C39A /* SDViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

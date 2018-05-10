@@ -2,6 +2,9 @@
 
 target 'SDIJKPlayerSSL_Example' do
   pod 'SDIJKPlayerSSL', :path => '../'
+  pod 'YYWebImage'
+  pod 'Masonry'
+  pod 'SVProgressHUD'
   
   target 'SDIJKPlayerSSL_Tests' do
     inherit! :search_paths
