@@ -10,7 +10,7 @@
 #import <IJKMediaFrameworkWithSSL/IJKMediaFrameworkWithSSL.h>
 #import <Masonry/Masonry.h>
 
-NSString *const KSDFullScreenStateChangedNotificaiton = @"KDXFullScreenStateChangedNotificaiton.com.sd";
+NSString *const KSDFullScreenStateChangedNotificaiton = @"KSDFullScreenStateChangedNotificaiton.com.sd";
 
 @implementation SDMediaControl{
     BOOL _isMediaSliderBeingDragged;
