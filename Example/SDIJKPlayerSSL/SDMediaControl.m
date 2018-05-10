@@ -10,7 +10,7 @@
 #import <IJKMediaFrameworkWithSSL/IJKMediaFrameworkWithSSL.h>
 #import <Masonry/Masonry.h>
 
-NSString *const KDXFullScreenStateChangedNotificaiton = @"KDXFullScreenStateChangedNotificaiton.com.dx";
+NSString *const KSDFullScreenStateChangedNotificaiton = @"KDXFullScreenStateChangedNotificaiton.com.sd";
 
 @implementation SDMediaControl{
     BOOL _isMediaSliderBeingDragged;
@@ -79,7 +79,7 @@ NSString *const KDXFullScreenStateChangedNotificaiton = @"KDXFullScreenStateChan
 - (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     [self playAction];
 }
-- (UILabel *)dx_controlLabel{
+- (UILabel *)sd_controlLabel{
     UILabel *label = [UILabel new];
     label.textColor = [UIColor whiteColor];
     label.font = [UIFont systemFontOfSize:12];
@@ -127,7 +127,7 @@ NSString *const KDXFullScreenStateChangedNotificaiton = @"KDXFullScreenStateChan
     }];
     self.playButton = btn;
     // 当前时长
-    UILabel *currentLabel = [self dx_controlLabel];
+    UILabel *currentLabel = [self sd_controlLabel];
     [self.bottomPanel addSubview:currentLabel];
     [currentLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.leading.equalTo(btn.mas_trailing).offset(5);
@@ -135,7 +135,7 @@ NSString *const KDXFullScreenStateChangedNotificaiton = @"KDXFullScreenStateChan
     }];
     self.currentTimeLabel = currentLabel;
     // 总时长
-    UILabel *totalLabel = [self dx_controlLabel];
+    UILabel *totalLabel = [self sd_controlLabel];
     [self.bottomPanel addSubview:totalLabel];
     [totalLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.trailing.equalTo(self.bottomPanel).offset(-5);
@@ -251,7 +251,7 @@ NSString *const KDXFullScreenStateChangedNotificaiton = @"KDXFullScreenStateChan
 - (void)fullScreenTapAction:(UIButton *)sender{
     self.fullscreenButton.selected = !self.fullscreenButton.selected;
     self->_fullScreenState = self.fullscreenButton.selected;
-    [[NSNotificationCenter defaultCenter] postNotificationName:KDXFullScreenStateChangedNotificaiton object:@(self.fullScreenState)];
+    [[NSNotificationCenter defaultCenter] postNotificationName:KSDFullScreenStateChangedNotificaiton object:@(self.fullScreenState)];
 }
 
 @end

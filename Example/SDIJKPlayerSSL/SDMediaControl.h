@@ -10,7 +10,7 @@
 
 @protocol IJKMediaPlayback;
 
-UIKIT_EXTERN NSString *const KDXFullScreenStateChangedNotificaiton;
+UIKIT_EXTERN NSString *const KSDFullScreenStateChangedNotificaiton;
 
 @interface SDMediaControl : UIView
 - (void)showAndNoFade;
