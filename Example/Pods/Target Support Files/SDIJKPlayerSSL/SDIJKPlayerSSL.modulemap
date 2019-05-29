@@ -1,0 +1,6 @@
+framework module SDIJKPlayerSSL {
+  umbrella header "SDIJKPlayerSSL-umbrella.h"
+
+  export *
+  module * { export * }
+}

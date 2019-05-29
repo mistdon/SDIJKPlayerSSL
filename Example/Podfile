@@ -1,4 +1,7 @@
 #use_frameworks!
+platform :ios, '8.0'
+
+inhibit_all_warnings!
 
 target 'SDIJKPlayerSSL_Example' do
   pod 'SDIJKPlayerSSL', :path => '../'
